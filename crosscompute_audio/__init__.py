@@ -9,7 +9,7 @@ class AudioType(DataType):
     template = 'crosscompute_audio:type.jinja2'
 
     @classmethod
-    def load(Class, path):
+    def load(Class, path, default_value=None):
         return path
 
     @classmethod
